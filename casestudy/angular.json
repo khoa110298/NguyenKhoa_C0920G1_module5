@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular": {
+    "casestudy": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular",
+            "outputPath": "dist/casestudy",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular:build"
+            "browserTarget": "casestudy:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular:build:production"
+              "browserTarget": "casestudy:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular:build"
+            "browserTarget": "casestudy:build"
           }
         },
         "test": {
@@ -88,13 +88,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -114,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular:serve"
+            "devServerTarget": "casestudy:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular:serve:production"
+              "devServerTarget": "casestudy:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "angular"
+  "defaultProject": "casestudy"
 }
