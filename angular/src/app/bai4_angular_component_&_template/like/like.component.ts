@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./like.component.css']
 })
 export class LikeComponent implements OnInit {
-
+  like = 0;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  augmentLike() {
+    this.like++;
+  }
 }

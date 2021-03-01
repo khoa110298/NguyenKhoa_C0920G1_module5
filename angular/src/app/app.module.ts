@@ -29,6 +29,7 @@ import { YoutubePlayerComponent } from './bai7_service_&_router/youtube-player/y
 import { DictionaryComponent } from './bai7_service_&_router/dictionary/dictionary.component';
 import { DictionaryDetailComponent } from './bai7_service_&_router/dictionary-detail/dictionary-detail.component';
 import { DictionaryPageComponent } from './bai7_service_&_router/dictionary-page/dictionary-page.component';
+import { ArticleListComponent } from './bai4_angular_component_&_template/article-list/article-list.component';
 
 
 @NgModule({
@@ -58,6 +59,7 @@ import { DictionaryPageComponent } from './bai7_service_&_router/dictionary-page
     DictionaryComponent,
     DictionaryDetailComponent,
     DictionaryPageComponent,
+    ArticleListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,65 @@
+{
+  "customers": [
+    {
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "name": "khao1234",
+      "dateOfBirth": "2021-02-17T17:00:00.000Z",
+      "idCard": "123",
+      "phone": "123",
+      "email": "Hai@gmail.com",
+      "address": "hải Phòng",
+      "id": 5
+    },
+    {
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "khánh123",
+      "dateOfBirth": "2020-09-01T17:00:00.000Z",
+      "idCard": "123",
+      "phone": "123",
+      "email": "long@gmail.com.vn",
+      "address": "đà nẵng",
+      "id": 7
+    },
+    {
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "name": "kkkkkk",
+      "dateOfBirth": "2021-02-20T17:00:00.000Z",
+      "idCard": "123",
+      "phone": "0123",
+      "email": "trung@gmail.com",
+      "address": "quảng nam",
+      "id": 8
+    }
+  ],
+  "customerTypeList": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Member"
+    }
+  ]
+}
